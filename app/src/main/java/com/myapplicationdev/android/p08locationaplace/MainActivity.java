@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                         .position(poi_north)
                         .title("HQ - North")
                         .snippet("Block 333, Admiralty Ave 3, 765654")
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.star)));
 
                 east = map.addMarker(new
                         MarkerOptions()
